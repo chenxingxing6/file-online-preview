@@ -16,20 +16,12 @@ target/
 *.ipr
 
 ### NetBeans ###
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
-/*.iml
 
 **/target/
 .classpath
 .project
 **/.settings
 **/bin/
-**/build/
 **/.externalToolBuilders/
 *.iml
 **/.idea/
