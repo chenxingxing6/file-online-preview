@@ -1,4 +1,4 @@
-# file-online-preview
+# file-online-preview develop开发分支
 此项目为文件文档在线预览项目解决方案，该项目使用流行的spring boot搭建，易上手和部署，基本支持主流办公文档的在线预览，
 如doc,docx,Excel,pdf,txt,zip,rar,图片等等
 
@@ -53,7 +53,7 @@ spring.redisson.address = 192.168.1.204:6379
 ##资源映射路径(因为jar方式运行的原因)
 file.dir = C:\\Users\\yudian\\Desktop\\dev\\
 ## openoffice相关配置
-office.home = C:\\Program Files (x86)\\OpenOffice 4
+office.home = C:\\Program Files (x86)\\OpenOffice 4 #mac:/Applications/OpenOffice.app/Contents/
 ```
 file.dir为转换文件实际存储地址，注意要以/结尾
 3. 第三步：运行FilePreviewApplication的main方法，服务启动后，访问http://localhost:8012/
