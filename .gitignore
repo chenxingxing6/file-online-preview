@@ -24,13 +24,8 @@ nbproject/private/
 .project
 **/.settings
 **/bin/
-**/build/
 **/.externalToolBuilders/
 *.iml
 **/.idea/
-**/disconf
-**/rpc.properties
 /producer/tmp
-/.temfile
-.temfile
 convertedFile/
