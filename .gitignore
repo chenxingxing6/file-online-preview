@@ -16,6 +16,8 @@ target/
 *.ipr
 
 ### NetBeans ###
+nbproject/private/
+/*.iml
 
 **/target/
 .classpath
@@ -25,9 +27,5 @@ target/
 **/.externalToolBuilders/
 *.iml
 **/.idea/
-**/disconf
-**/rpc.properties
 /producer/tmp
-/.temfile
-.temfile
 convertedFile/
