@@ -47,9 +47,14 @@ public class OnlinePreviewController {
      */
     @RequestMapping(value = "onlinePreview", method = RequestMethod.GET)
     public String onlinePreview(String url, Model model, HttpServletRequest req) {
-        req.setAttribute("fileKey", req.getParameter("fileKey"));
-        FilePreview filePreview = previewFactory.get(url);
-        return filePreview.filePreviewHandle(url, model);
+        try {
+            req.setAttribute("fileKey", req.getParameter("fileKey"));
+            FilePreview filePreview = previewFactory.get(url);
+            return filePreview.filePreviewHandle(url, model);
+        }catch (Exception e){
+            return "error";
+        }
+
     }
 
     /**

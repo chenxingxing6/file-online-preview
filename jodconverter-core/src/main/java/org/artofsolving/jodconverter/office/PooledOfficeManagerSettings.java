@@ -14,8 +14,8 @@ package org.artofsolving.jodconverter.office;
 
 class PooledOfficeManagerSettings extends ManagedOfficeProcessSettings {
 
-    public static final long DEFAULT_TASK_EXECUTION_TIMEOUT = 120000L;
-    public static final int DEFAULT_MAX_TASKS_PER_PROCESS = 200;
+    public static final long DEFAULT_TASK_EXECUTION_TIMEOUT = 1200000L;
+    public static final int DEFAULT_MAX_TASKS_PER_PROCESS = 2000;
 
     private long taskExecutionTimeout = DEFAULT_TASK_EXECUTION_TIMEOUT;
     private int maxTasksPerProcess = DEFAULT_MAX_TASKS_PER_PROCESS;
