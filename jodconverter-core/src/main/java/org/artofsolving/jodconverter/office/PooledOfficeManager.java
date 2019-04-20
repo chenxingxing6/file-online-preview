@@ -77,7 +77,9 @@ class PooledOfficeManager implements OfficeManager {
          });
          currentTask = futureTask;
          try {
-             futureTask.get(settings.getTaskExecutionTimeout(), TimeUnit.MILLISECONDS);
+             if (settings !=null) {
+                 futureTask.get(settings.getTaskExecutionTimeout(), TimeUnit.MILLISECONDS);
+             }
          } catch (TimeoutException timeoutException) {
              managedOfficeProcess.restartDueToTaskTimeout();
              throw new OfficeException("task did not complete within timeout", timeoutException);

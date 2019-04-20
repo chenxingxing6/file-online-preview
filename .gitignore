@@ -17,11 +17,6 @@ target/
 
 ### NetBeans ###
 nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
 /*.iml
 
 **/target/
@@ -29,13 +24,8 @@ nbdist/
 .project
 **/.settings
 **/bin/
-**/build/
 **/.externalToolBuilders/
 *.iml
 **/.idea/
-**/disconf
-**/rpc.properties
 /producer/tmp
-/.temfile
-.temfile
 convertedFile/

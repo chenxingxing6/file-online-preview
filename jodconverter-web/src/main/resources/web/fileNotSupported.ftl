@@ -31,9 +31,8 @@
 <div class="container">
     <img src="images/sorry.jpg" />
     <span>
-        该文件类型(${fileType})系统暂时不支持在线预览，<b>说明</b>：
-        <p>${msg}</p>
-        如有需要请联系<a href="mailto:1210893441@qq.com">@HappyPig</a>
+        该文件类型(${fileType})系统暂时不支持在线预览
+        如有需要请联系<a href="mailto:1527072012@qq.com">@陈星星</a>
     </span>
 </div>
 </body>
