@@ -67,8 +67,8 @@
     </dependencies>
 
     <build>
-        <plugins>
-            <!--   要将源码放上去，需要加入这个插件    -->
+      <!--  <plugins>
+            &lt;!&ndash;   要将源码放上去，需要加入这个插件    &ndash;&gt;
             <plugin>
                 <artifactId>maven-source-plugin</artifactId>
                 <version>2.1</version>
@@ -99,7 +99,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.7.2</version>
                 <configuration>
-                    <!-- don't run tests in parallel -->
+                    &lt;!&ndash; don't run tests in parallel &ndash;&gt;
                     <perCoreThreadCount>false</perCoreThreadCount>
                     <threadCount>1</threadCount>
                 </configuration>
@@ -127,7 +127,7 @@
                     </descriptors>
                 </configuration>
             </plugin>
-        </plugins>
+        </plugins>-->
     </build>
 
     <!-- distribute目录 -->
